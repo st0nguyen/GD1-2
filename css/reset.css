@@ -75,6 +75,22 @@ img.card-img-top{
 }
 #categories li.list-group-item {
     font-size: 1.3rem;
+    margin-right: 50%;
+}
+#all {
+    text-align: center;
+}
+
+#listCate{
+    display: none;
+}
+
+#ban-left {
+    width: 60rem;
+}
+#books {
+    border: 1px groove burlywood;
+   margin: auto
 }
 }
   
@@ -124,6 +140,21 @@ img.card-img-top{
     }
     #books {
         border: 1px groove burlywood;
-       margin-left: 2rem;
+       margin: auto
+    }
+    #categories li.list-group-item {
+        font-size: 1.3rem;
+        width: 20rem;
+    }
+    .card-group a {
+        font-size: 2rem;
+    }
+    .list-group list-group-flush{
+        width: 30rem;
+    }
+    .footer_menu .list-group-item {
+        font-size: 1.4rem;
+        border-bottom-color: #6e736e;
+        width: 30rem;
     }
   }
