@@ -1,0 +1,300 @@
+@font-face {
+    font-family : "MyriadPro";
+  
+      src:url(/fonts/MyriadProBoldSemiExtended.ttf) format('truetype'),
+      url(/fonts/MyriadPro-Bold.otf) format("embedded-opentype"),
+      url(/fonts/MyriadProBoldSemiExtended.woff) format ('woff'),
+      url(/fonts/MyriadProBoldSemiExtended.woff2) format ("woff2");
+      font-weight:normal;
+   font-style:normal;
+  
+  }
+  body {
+    font-family: "MyriadPro";
+  }
+
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-width: 600px;
+  }
+
+/* header_top */
+
+.header_top {
+    background-color: #424242;
+}
+a{
+    color: white;
+    font-size: 1.6rem;
+}
+
+/* // */
+
+/* header_middle */
+.header_middle {
+    font-size: 2.3rem;
+    padding: 2rem 0rem;
+    background-color: #f4f4f4;
+}
+
+.header_middle p{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+}
+
+.header_middle img#logo{
+    width: 11.4rem;
+    height: 7.3rem;
+    
+}
+
+#hm-input{
+    height: 4.8rem;
+    width: 45.2rem;
+    border-width: 0.5rem;
+    border-color: #79b260;
+}
+
+#button-addon2 {
+    background-color: #79b260;
+    border-width: 0px;
+    color:white;
+    font-size: 2.3rem;
+}
+
+#col-cart{
+    border-right: 1px groove;
+}
+
+#col-cart h4{
+    font-size: 2.3rem;
+}
+
+#col-cart h3{
+    font-size: 2.7rem;
+}
+
+#i-cart{
+    width: 2.6rem;
+    height: 2.9rem;
+}
+
+#bt-checkout{
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    width: 8.1rem;
+    height: 2.6rem;
+    font-size: 1.3rem;
+    /* position: absolute;
+    right: 5%;
+    top: 55%; */
+}
+#ci {
+    display: flex !important;
+}
+
+#shape10 {
+    width: 2.5rem;
+    position: relative ;
+    left: 38%;
+    padding: 0.5rem 0rem ;
+}
+
+#h4-hm {
+   
+    position: absolute ;
+    left: 20%;
+    top: 50%;
+    font-size: 2.1rem;
+}
+
+.badge.badge-primary.badge-pill{
+    position: absolute;
+    font-size: 1.3rem;
+    padding: 1px 6px;
+    top: -33%;
+    left: 80%;
+  
+}
+/* */
+
+/* .header_bottom */
+
+.header_bottom {
+    
+}
+.header_bottom .nav-link{
+    color: black;
+    font-size: 1.9rem;
+    padding: 1rem 2.5rem;
+}
+
+/* end */
+
+/* banner */
+
+.banner img{
+    height: 30.5rem;
+}
+
+#ban-left{
+    width: 35rem;
+}
+
+/* end */
+
+/* content */
+
+
+.list-group-collapse li > ul li:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-collapse li > ul {
+    margin-left: -6px;
+    margin-right: -6px;
+    margin-bottom: -1px;
+}
+
+#categories .h3{
+    font-size: 1.7rem;
+}
+
+#categories li.list-group-item{
+    font-size: 1.533rem;
+}
+
+img.card-img-top{
+    width: 14rem;
+    height: auto;
+  
+}
+
+.card-group .card{
+    padding: 1rem 1rem;
+    border: 0px;
+}
+
+.card-group a{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.card-group p{
+    font-size: 2.2rem;
+    text-align: center;
+    color: red;
+}
+
+.pagination {
+    /* position: absolute;
+    right: 5%;
+    bottom: 5%; */
+}
+
+#books{
+    border: 1px groove burlywood;
+}
+
+#sale {
+    position: absolute;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+    right: 10%;
+  
+}
+/* end */
+
+/* footer */
+.footer_card img{
+    width: 5rem;
+    height: 3rem;
+}
+
+.footer_menu h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer_menu .list-group-item{
+    font-size: 1.4rem;
+    border-bottom-color: #6e736e;
+}
+
+#categories .list-group-item .list-group .list-group-item  {
+    border-width: 0px;
+}
+#categories .list-group-item .list-group .list-group-item .list-group-item{
+    border-bottom-width: 1px;
+   
+    margin-right: 8rem;
+}
+
+.footer_menu, .footer_menu .list-group-item, .footer {
+    background-color: #423e43;
+    color: #b0b1b0;
+}
+
+.footer_card {
+    background-color: #302e32;
+    color: #b0b1b0;
+    border-bottom: 1px solid #6e736e;
+}
+
+.footer_info {
+    background-color: #302e32;
+    color: #b0b1b0;
+}
+
+.nav-tabs .nav-link.active {
+    
+}
+
+.nav-tabs .nav-link{
+    color: #000;
+    background-color: #f1f1f1;
+    border-right: 1.6px ridge ;
+}
+
+.content h3:hover {
+    background: linear-gradient(#92D673, #79B260);
+    color: #fff;
+}
+
+#all {
+    background: linear-gradient(#92D673, #79B260);
+    color: #fff;
+}
+
+.content h3:not(#all):hover #all {
+    background-color: #302e32;
+}
+
+#categories .list-group-item .list-group .list-group-item .list-group-item:hover {
+    background:linear-gradient(#92D673, #79B260);
+    color: #fff;
+}
+
+.pagination li.page-item.active{
+/* border-bottom: 2px groove linear-gradient(#92D673, #79B260); */
+}
+
+.page-item.active .page-link {
+    background-color: #88d16b;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #88d16b;
+}
+
+.input-group-append{
+    height: 4.8rem;
+}
