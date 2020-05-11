@@ -174,7 +174,7 @@ img.card-img-top{
     #btn-price {
         position: absolute;
         right: 17%;
-        width: 19rem;
+        width: 15rem;
         height: 4rem;
         bottom: 28%;
         font-size: 2rem;
@@ -188,4 +188,9 @@ img.card-img-top{
 
 @media only screen and (max-width: 400px) {
 
+}
+@media only screen and (max-width: 575px) {
+    #books a.card-text {
+        font-size: 3rem;
+    }
 }
