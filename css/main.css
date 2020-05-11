@@ -204,6 +204,10 @@ img.card-img-top{
     border: 1px groove burlywood;
 }
 
+#books a.card-text{
+color: #000;
+}
+
 #sale {
     position: absolute;
     font-size: 1.5rem;
@@ -356,3 +360,98 @@ img.card-img-top{
       text-align: left;
     }
   }
+
+  /* product */
+  #price{
+      display: grid;
+      width: 90%;
+  }
+  #also img{
+      width: 5rem;
+      height: 7.8rem;
+  }
+
+  .breadcrumb-item+.breadcrumb-item::before {
+   
+    content: "/";
+}
+
+.breadcrumb a{
+    font-size: 1.6rem;
+    color: #a6a6a6;
+}
+
+.breadcrumb {
+    background-color: white;
+    border: ;
+}
+
+#content-pro h2{
+    font-size: 4.1rem;
+}
+
+#content-pro p{
+    font-size: 1.6rem;
+}
+
+#price h3{
+    font-size: 3.6rem;
+    color: #015699;
+}
+
+#price span{
+    font-size: 3.6rem;
+    color: #df1414;
+    font-weight: bold;
+}
+
+#price p{
+    font-size: 1.3rem;
+}
+
+#card i{
+    font-size: 3rem;
+}
+
+#btn-price{
+    position: absolute;
+    right: 17%;
+    width: 19rem;
+    height: 4rem;
+    bottom: 35%;
+    font-size: 2rem;
+    background-color: #8CCE6F;
+}
+
+#inf p{
+    font-size: 1.2rem;
+}
+
+#review p{
+    font-size: 1.3rem;
+}
+
+#review label{
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+#inputMess{
+    height: 5rem;
+}
+
+#sub{
+    width: 9.5rem;
+    height: 3.5rem;
+    font-size: 1.8rem;
+    background-color: #8DD070;
+    border: unset;
+}
+
+#mayAlso h5{
+    font-size: 1.3rem;
+}
+
+#mayAlso button{
+    background-color: #595959;
+}
