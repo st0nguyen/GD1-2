@@ -157,6 +157,16 @@ img.card-img-top{
         border-bottom-color: #6e736e;
         width: 30rem;
     }
+
+    #books a.card-text {
+        font-size: 3rem;
+    }
+
+    .card-group p {
+        font-size: 4rem;
+        text-align: center;
+        color: red;
+    }
   }
 
 /* product */
