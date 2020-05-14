@@ -129,9 +129,7 @@ a{
 
 /* .header_bottom */
 
-.header_bottom {
-    
-}
+
 .header_bottom .nav-link{
     color: black;
     font-size: 1.9rem;
@@ -194,11 +192,7 @@ img.card-img-top{
     color: red;
 }
 
-.pagination {
-    /* position: absolute;
-    right: 5%;
-    bottom: 5%; */
-}
+
 
 #books{
     border: 1px groove burlywood;
@@ -260,9 +254,6 @@ color: #000;
     color: #b0b1b0;
 }
 
-.nav-tabs .nav-link.active {
-    
-}
 
 .nav-tabs .nav-link{
     color: #000;
@@ -289,9 +280,7 @@ color: #000;
     color: #fff;
 }
 
-.pagination li.page-item.active{
-/* border-bottom: 2px groove linear-gradient(#92D673, #79B260); */
-}
+
 
 .page-item.active .page-link {
     background-color: #88d16b;
@@ -383,7 +372,7 @@ color: #000;
 
 .breadcrumb {
     background-color: white;
-    border: ;
+   
 }
 
 #content-pro h2{
@@ -505,4 +494,9 @@ color: #000;
     font-weight: 700;
     color: white;
     }
+  }
+
+  #also {
+      border-bottom: 0.2px solid #d5d2d2;
+      padding-bottom: 1rem;
   }

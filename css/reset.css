@@ -107,7 +107,7 @@ img.card-img-top{
 
   .input-group-append {
       width: 60%;
-      height: ;
+     
   }
 
   #cart {
@@ -140,11 +140,28 @@ img.card-img-top{
     }
 }
 
-@media only screen and (max-width: 700px) {
-
+@media only screen and (max-width: 768px) {
+.footer_menu .col-md {
+    float: left;
+    width: 50%;
 }
 
-@media only screen and (max-width: 400px) {
+#also {
+    border-bottom: 0.2px solid #d5d2d2;
+    padding-bottom: 1rem;
+    float: left;
+    width: 33%;
+}
+}
+
+@media only screen and (max-width: 575px) {
+    #row1, #row3 {
+        float: left;
+    width: 50%;
+    }
+    #row2, #row4{
+        width: 50%;
+    }
 
 }
 
@@ -217,6 +234,11 @@ img.card-img-top{
   }
 @media only screen and (max-width: 575px) {
     #books a.card-text {
-        font-size: 3rem;
+        font-size: 1.8rem;
+    }
+    .card-group p {
+        font-size: 2rem;
+        text-align: center;
+        color: red;
     }
 }
